@@ -1,0 +1,14 @@
+delete mapping controller
+//			this.userService.deleteUserById(id);
+//			return new ResponseEntity<>(HttpStatus.ACCEPTED);
+
+update user in service.java
+Optional<User1> optionaluser= userRepository.findById(id).orElseThrow(() -> new CustomException("user not found"));
+//		if(optionaluser.isPresent()) {
+		//oldUser=optionaluser.get();
+	
+update user 2nd codein service.java	
+//	public User1 updateUser(int id, User1 user) {
+//		userRepository.save(user);
+//		return user;
+//	}
